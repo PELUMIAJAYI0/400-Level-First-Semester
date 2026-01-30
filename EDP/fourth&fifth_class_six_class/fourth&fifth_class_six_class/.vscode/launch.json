@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "chrome",
+            "name": "http://file:///home/tobi/Desktop/newDesktop/EDP411_2025/fourth_class/index.html",
+            "request": "launch",
+            "url": "http://file:///home/tobi/Desktop/newDesktop/EDP411_2025/fourth_class/index.html"
+        }
+    ]
+}
