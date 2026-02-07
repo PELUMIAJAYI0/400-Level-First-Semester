@@ -32,14 +32,21 @@ con.sendall(bytes(msg.encode("ascii")))
 
 print("message sent")
 
+
 #receive message from client
-data = con.recv(1024).decode()
-#data = data.upper()
+while True:
+    #receive message from client
+    data = con.recv(1024).decode()
+    data = data.upper()
 
-print("message from client: ", data)
+    if not data:
+        print("end conversation")
+        break
 
-data = data.upper()
+    print("message from client: ", data)
 
-#send message to client
-con.sendall(bytes(data.encode("ascii")))
+    data = data.upper()
+
+    #send message to client
+    con.sendall(bytes(data.encode("ascii")))
 
