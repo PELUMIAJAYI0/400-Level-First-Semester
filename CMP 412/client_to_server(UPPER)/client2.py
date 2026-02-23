@@ -2,7 +2,7 @@ import socket
 #we use socket to cimmunicate
 
 cs = socket.socket(family=socket.AF_INET, type=socket.SOCK_STREAM)
-print("server start")
+print("client start")
 
 
 ip = socket.gethostname()
