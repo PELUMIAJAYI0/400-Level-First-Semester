@@ -1,0 +1,974 @@
+AUTONOMOUS
+VEHICLES
+
+QUESTION 1:
+(a) Explain the Sense-Think-Act (STA) architecture of autonomous vehicles.
+I. Describe the three main stages of the STA model
+II. Explain how these stages work together in a closed-loop system
+(b) Differentiate between the following sensor technologies used in autonomous vehicles:
+I. LiDAR
+II. Radar
+III. Cameras
+IV. Ultrasonic sensors
+For each sensor, briefly explain its principle of operation and one key advantage.
+(c) According to the SAE J3016 standard, autonomous vehicles are classified into six levels
+(Level 0 to Level 5).
+I. Describe Level 2 (Partial Driving Automation) and give one example
+II. Describe Level 4 (High Driving Automation) and explain how it differs from Level 3
+III. What is the key characteristic that distinguishes Level 5 (Full Driving Automation) from
+all other levels?
+QUESTION 2:
+(a) Identify and explain FOUR technological challenges facing autonomous vehicle
+development.
+(b) Ethical and Legal Implications:
+I. Explain the "moral decision problem" in autonomous vehicles and why it presents an
+ethical dilemma
+II. Discuss TWO legal challenges related to liability and accountability when autonomous
+vehicles are involved in accidents
+(c) Future Trends and Research Directions:
+I. Explain how Vehicle-to-Everything (V2X) communication can enhance autonomous
+vehicle operations
+II. Briefly describe the concept of "Mobility as a Service (MaaS)" and its relationship with
+autonomous vehicles
+
+5G NETWORKS
+
+Advanced Examination Questions and Answers 
+Question 1: 
+Explain how network slicing improves Quality of Service (QoS) in 5G networks. 
+Answer: 
+Network slicing improves QoS by allocating dedicated virtual network resources to specific 
+services. This ensures predictable latency, bandwidth, and reliability, preventing performance degradation caused by traffic congestion from other services. 
+Question 2: 
+Discuss the role of edge computing in achieving ultra-low latency in 5G applications. 
+Answer: 
+Edge computing reduces latency by processing data near the end user instead of relying on 
+centralized cloud servers. This minimizes transmission delays and supports real-time applications such as autonomous vehicles and remote surgery. 
+Question 3: 
+Compare Standalone (SA) and Non-Standalone (NSA) 5G architectures. 
+Answer: 
+NSA architecture relies on existing 4G infrastructure for control signaling, allowing faster deployment but limiting advanced features. SA architecture uses a full 5G core, enabling network slicing, ultra-low latency, and full 5G capabilities. 
+Question 4: 
+Why is mmWave deployment challenging despite its high data rates? 
+Answer: 
+mmWave signals have limited propagation range and are easily blocked by buildings, 
+vegetation, and weather conditions. This necessitates dense base station deployment, increasing infrastructure costs. 
+Question 5: 
+Explain how 5G acts as a foundation for 6G development. 
+Answer: 
+5G introduces cloud-native cores, Al-assisted network management, and advanced spectrum 
+utilization. These technologies form the baseline upon which 6G will build, enabling intelligent, 
+autonomous, and globally connected networks. 
+
+DEEP LEARNING
+
+Question 1: Deep Learning Training and Optimization
+(a) Describe the main stages involved in training a deep learning model.
+(b) Explain the role of activation functions in deep neural networks.
+(c) State and briefly explain two optimization techniques used to improve
+deep learning training.
+Answer
+(a)
+Training a deep learning model involves three main stages: forward
+propagation, loss computation, and backpropagation. In forward
+propagation, input data passes through the network to generate predictions.
+The loss function then measures the difference between predicted and actual
+outputs. Backpropagation computes gradients and updates model weights
+iteratively using optimization algorithms.
+(b)
+Activation functions introduce non-linearity into neural networks, allowing
+them to learn complex patterns. Without activation functions, deep networks
+would behave like linear models regardless of depth.
+(c)
+Two optimization techniques are:
+ Regularization, such as dropout or L1/L2 regularization, which helps
+prevent overfitting.
+ Batch normalization, which stabilizes learning by normalizing
+activations and allows faster convergence.
+Question 2: Deep Learning Architectures and Evaluation
+(a) Compare Artificial Neural Networks (ANNs) and Convolutional Neural
+Networks (CNNs) in terms of structure and data suitability.
+(b) Explain why Recurrent Neural Networks (RNNs) may struggle with
+long-term dependencies.
+(c) Describe two evaluation metrics used to assess deep learning model
+performance.
+
+Answer
+(a)
+ANNs are fully connected networks suitable for structured or tabular data,
+while CNNs use convolutional filters and shared weights, making them
+more efficient and effective for spatial data such as images.
+(b)
+RNNs may struggle with long-term dependencies due to the vanishing
+gradient problem, where gradients become too small during
+backpropagation, preventing the network from learning long-range
+relationships.
+(c)
+Two evaluation metrics are:
+ Accuracy, which measures the proportion of correctly classified
+instances.
+ F1-score, which balances precision and recall to provide a more
+reliable measure of model performance.
+
+GAME DESIGN AND DEV
+
+QUESTION ONE:
+Explain the concept of Game Design and discuss its key components.
+ANSWER:
+
+Game design is the art and science of creating the structure and experience of a game by defining
+rules, mechanics, objectives, player interactions, and progression systems. It focuses on how
+players think, feel, and behave while playing. Game design determines how a game works and
+how challenges and rewards are structured.
+
+The key components of game design include:
+1. Mechanics: These are the rules and systems that govern gameplay, such as jumping,
+shooting, or scoring.
+2. Dynamics: These describe how mechanics interact with player behavior during
+gameplay.
+3. Aesthetics: These refer to the emotional experiences, visuals, and overall feel of the
+game.
+4. Gameplay: This involves the actions, challenges, and interactions players experience in
+the game.
+Together, these elements shape the player’s experience and determine the success of a game.
+
+QUESTION TWO:
+Differentiate between Real-time Animation and Pre-rendered Animation in
+game development.
+Real-time animation is animation that is generated instantly during gameplay and changes
+according to player actions. For example, a character running or fighting in games like GTA or
+FIFA is real-time animation.
+Pre-rendered animation, on the other hand, is created in advance and played as a fixed video or
+cutscene in a game. It does not change based on player input. Examples include story cutscenes
+in games like God of War or Uncharted.
+In summary, real-time animation is interactive and dynamic, while pre-rendered animation is
+fixed and cinematic.
+
+BIO INFORMATICS
+
+QUESTION 1 :
+a) Define bioinformatics and explain why it emerged as a distinct scientific field. (4 marks)
+b) List and briefly describe the THREE main classifications (branches) of bioinformatics.
+(6 marks)
+c) Explain what is meant by the "black box problem" in artificial intelligence applications
+within bioinformatics. (4 marks)
+d) Give TWO specific examples of how bioinformatics is applied in forensic science. (6
+marks)
+
+QUESTION 2
+a) Explain what is meant by "data heterogeneity" as a challenge in bioinformatics. (4
+marks)
+b) Describe TWO ways bioinformatics contributes to agricultural biotechnology and food
+safety. (8 marks)
+c) Why is bioinformatics described as an "interdisciplinary" field? Name THREE
+disciplines involved and explain the contribution of each. (8 marks)
+
+QUESTION 1 SOLUTIONS
+Part (a): Define Bioinformatics (4 marks)
+Bioinformatics is the intersection of biology, computer science, math, and statistics used to
+analyze biological data at the molecular level. It emerged because scientists needed
+computational tools to handle the massive amounts of DNA, RNA, and protein data from modern
+sequencing technologies, data too vast to analyze manually.
+Part (b): Three Classifications of Bioinformatics
+
+1. Sequence Bioinformatics - Analyzes DNA/RNA/protein sequences (linear strings of
+A,T,G,C or amino acids). Uses tools like BLAST to compare sequences, find genes, and
+identify patterns.
+2. Structural Bioinformatics - Predicts and analyzes 3D shapes of proteins and nucleic
+acids. Uses databases like PDB and tools like AlphaFold for structure prediction and drug
+design.
+3. Functional Bioinformatics - Determines what genes and proteins actually do in cells.
+Includes gene expression analysis, protein interactions, and metabolic pathways.
+Part (c): Black Box Problem
+AI models in bioinformatics make accurate predictions (e.g., "this mutation causes disease") but
+cannot explain why or how. This lack of transparency creates problems in clinical settings where
+doctors need to understand reasoning, not just accept predictions. It also hinders scientific
+understanding.
+Part (d): Forensic Applications
+Application 1 - Paternity Testing: Analyzes DNA markers (STRs) to determine biological
+relationships with >99.9% certainty for legal cases like custody disputes.
+Application 2 - Disaster Victim Identification: Matches DNA from remains to missing persons
+databases or family members. Used after tsunamis, plane crashes, etc., to identify bodies when
+traditional methods fail.
+QUESTION 2
+Part (a): Data Heterogeneity (4 marks)
+Biological data exists in many incompatible formats (FASTQ, BAM, VCF, PDB, etc.) across
+disconnected databases worldwide. This fragmentation makes combining data difficult
+researchers spend significant time converting formats and harmonizing different standards before
+analysis can begin.
+Part (b): Agricultural Applications (8 marks)
+Application 1 - Climate-Resilient Crops: Genomic analysis identifies drought/flood/heat
+resistance genes by comparing plant genomes. Example: Discovered SUB1A gene allowing rice
+to survive 2-week floods, now grown across Asia protecting millions.
+
+Application 2 - Food Safety: Sequences pathogen DNA from outbreaks to trace contamination
+sources (specific farms/facilities) within days using phylogenetic analysis. Enables targeted
+recalls protecting consumers.
+Part (c): Interdisciplinary Nature
+Biology - Provides knowledge of genes, proteins, cells; essential for understanding what data
+means biologically.
+Computer Science - Supplies programming, algorithms, databases, software engineering; enables
+data processing and tool development.
+Mathematics/Statistics - Offers statistical methods, probability, modeling; determines if patterns
+are significant or random chance.
+Each discipline is essential no single field alone can do bioinformatics effectively.
+
+VR and AR
+
+1a) Explain the concept of Stereoscopy in Virtual Reality and discuss the role of
+lenses in achieving a convincing immersive experience.
+ Answer: Stereoscopy is based on the principle of Binocular Disparity, where
+the VR headset displays two slightly different images one for each eye to trick
+the brain into perceiving depth in a digital environment. Lenses are critical
+because they allow the user&#39;s eyes to focus on a screen that is physically only
+inches away, making the virtual world appear at a natural distance.
+1b) Compare Fresnel Lenses with modern &quot;Pancake Lenses&quot; in terms of their
+physical design and visual quality.
+ Answer: Fresnel Lenses are legacy components that use concentric rings to
+focus light but are bulky and prone to glare known as &quot;god rays&quot;. In contrast,
+modern Pancake Lenses fold the optical path using polarization, which allows
+for headsets that are significantly thinner, lighter, and offer superior edge-to-
+edge clarity.
+1c) Identify the three main sources of information the human brain uses to interpret
+motion and explain why Motion Sickness occurs specifically in Virtual Reality.
+ Answer: The brain relies on the eyes, the inner ear, and the body&#39;s muscles and
+joints to understand motion. Motion sickness occurs in VR when a natural
+alignment is broken for example, if a user’s eyes see rapid virtual movement
+while their inner ear and body remain stationary, the resulting sensory
+mismatch creates confusion in the brain.
+2a) Differentiate between Augmented Reality (AR) and Mixed Reality (MR)/Spatial
+Computing regarding how digital objects interact with the physical world.
+ Answer: Augmented Reality (AR) overlays digital elements onto the real
+world, but these objects typically float on top of the user&#39;s view without
+understanding the physical geometry of the room. Mixed Reality (MR) is a
+hybrid blend where digital and physical objects coexist and interact in real-time
+for example, a virtual ball can bounce off a real table or a virtual screen can be
+pinned to a physical wall.
+2b) Discuss how Foveated Rendering utilizes eye-tracking sensors to optimize the
+
+10
+
+performance of a VR system.
+ Answer: Foveated Rendering uses internal eye-tracking sensors to detect
+exactly where a user is looking. The system then directs the GPU to render that
+specific focal point in high resolution while lowering the quality in the
+peripheral vision, thereby saving significant processing power without
+degrading the perceived experience.
+2c) Describe the role of Artificial Intelligence (AI) in making Augmented Reality
+applications more aware of their surroundings.
+ Answer: AI enables AR applications to interpret visual information from
+cameras through computer vision, allowing systems to recognize objects, faces,
+and environments. For instance, in an interior design app, AI scans a room to
+identify floors and walls so that digital furniture can be placed realistically
+within that physical space
+
+COMPUTER VISION
+
+Question 1: Architecture Deep-Dive
+Distinguish between CNNs and Vision Transformers (ViTs) based on their "Inductive Bias" and "Receptive Fields" 
+Answer
+Inductive Bias: CNNs have a "strong" bias because they are hard-wired to understand locality and translation invariance. ViTs have a "weak" bias, meaning they don't make assumptions about the data and must learn all spatial relationships from scratch.
+
+Receptive Field: CNNs process images locally (focusing on small neighborhoods of pixels), whereas ViTs have a global receptive field from the start, allowing them to see the entire image at once via self-attention.
+
+
+
+Question 2: Pipeline Mechanics & Bottlenecks
+Outline the six steps of the standard Computer Vision pipeline and explain briefly state what is done in each step
+Answer
+The 6-Step Pipeline:
+Image Acquisition: Capturing data via sensors/cameras.
+Preprocessing: Cleaning data (noise reduction, resizing).
+Feature Detection: Identifying edges, corners, or blobs.
+Feature Description: Creating mathematical maps of those features.
+Pattern Recognition: Classifying the objects using ML or Deep Learning.
+Post-Processing: Refining the output for final decision-making.
+
+RENEWABLE ENERGY AND GREEN COMPUTING
+
+Question 1
+Explain the concept of Green Computing and discuss its techniques and benefits.
+Question 2
+Discuss the relationship between renewable energy and green computing, highlighting
+their applications and future prospects.
+
+Answers
+1. The concept of green computing emerged as a response to the rapid growth of
+information technology and its increasing contribution to energy consumption and
+carbon emissions. With the expansion of data centers, cloud services, and digital
+infrastructure, there became a need to ensure that technological advancement does not
+come at the expense of environmental sustainability. Several techniques are used to
+achieve green computing objectives. One major technique is the use of energy-
+efficient hardware, such as low-power processors, solid-state drives, and energy-
+saving monitors.The benefits of green computing are both environmental and
+economic. Environmentally, it helps reduce greenhouse gas emissions, conserves
+natural resources, and minimizes pollution caused by electronic waste. Economically,
+green computing lowers electricity costs, reduces hardware expenses, and increases
+system lifespan.
+2. Renewable energy and green computing are closely interconnected and together
+play a vital role in achieving sustainable technological development. While green
+computing focuses on reducing the energy demand of computing systems, renewable
+energy provides clean and sustainable power sources to meet that demand.renewable
+energy and green computing are applied in several areas. Many modern data centers
+now use solar or wind energy to power servers and cooling systems,green computing
+practices virtualization and efficient power management.Looking into the future, the
+prospects of renewable energy and green computing are promising. Advances in
+technology are leading to more energy-efficient processors, smarter power
+management systems, and better energy storage solutions.
+
+MACHINE LEARNING
+
+QUESTION 1: Practical Scenario
+Scenario: Imagine a bank in Lagos wants to build a system to automatically flag
+credit card transactions that look like &quot;yahoo yahoo&quot; (fraudulent activity). If the bank
+
+gives you a massive pile of old transaction records where every single one is already
+marked as either &quot;Legitimate&quot; or &quot;Fraudulent,&quot; which core type of machine learning
+would you use to build this, and why?
+Answer: Supervised Learning, specifically Classification.
+ Why: Because the bank provided &quot;labelled data&quot;—meaning every input
+(transaction) already has a corresponding &quot;correct answer&quot; (the label
+&quot;Legitimate&quot; or &quot;Fraudulent&quot;).
+ How it works: The model acts like a student studying a past exam. It looks at the
+old records to learn the &quot;pattern&quot; of fraud. Once trained, it can look at a brand-
+new transaction it has never seen before and predict if it is safe or a scam
+Question 2: In the document, machine learning model was compared to a student
+taking an exam. If a model suffers from &quot;Overfitting,&quot; why is it like a student who
+memorized the textbook word-for-word but still fails the actual test?
+Answer: Overfitting is when a model gets &quot;too smart&quot; for its own good by memorizing
+the specific noise and tiny details of the training data instead of learning the actual
+general patterns.
+ The Student Analogy: Just like a student who memorizes specific practice exam
+answers word-for-word, the model will score 100% on the data it has already
+seen.
+ The Failure: However, when the &quot;actual exam&quot; comes (new, unseen data) and
+the questions are phrased slightly differently, the model fails because it didn&#39;t
+actually understand the subject; it only memorized the specific examples it was
+given. Finding the balance between being too simple (Underfitting) and too
+specific (Overfitting) is one of the biggest challenges in ML.
+
+BIG DATA
+
+QUESTION 1
+
+a) Define Big Data.
+b) Explain the five characteristics (5 Vs) of Big Data.
+c) State three reasons why traditional data processing systems are inadequate for Big
+Data.
+ANSWER
+
+a) Definition of Big Data
+Big Data refers to extremely large, fast-growing, and complex datasets that cannot be
+effectively stored, processed, or analyzed using traditional data processing tools such
+as relational databases or spreadsheets.
+b) The Five Characteristics (5 Vs) of Big Data
+
+
+
+1. Volume
+Refers to the massive amount of data generated from sources such as social
+media, sensors, and transaction systems.
+2. Velocity
+Describes the speed at which data is generated, transmitted, and processed,
+often in real time.
+3. Variety
+Refers to different data formats, including structured (tables), semi-structured
+(JSON, XML), and unstructured data (videos, images, text).
+4. Veracity
+Indicates the accuracy, reliability, and quality of data. Poor veracity leads to
+incorrect analysis.
+5. Value
+Represents the ability to extract meaningful and useful insights from data for
+decision-making.
+c) Reasons Traditional Systems Are Inadequate
+1. Traditional systems cannot scale efficiently to handle massive data volumes.
+2. They lack support for real-time or high-velocity data processing.
+3. They are not designed to manage unstructured or semi-structured data.
+
+
+
+QUESTION 2
+
+a) Explain Big Data Architecture.
+b) Describe the four types of data analytics with suitable examples.
+c) State two challenges associated with Big Data analytics.
+ANSWER
+
+a) Big Data Architecture
+Big Data Architecture is a distributed system design that enables the storage,
+processing, and analysis of large datasets across multiple computers (nodes). It
+typically includes data sources, distributed storage systems (such as HDFS),
+processing frameworks (such as Apache Spark), analytics tools, and visualization
+layers.
+b) Types of Data Analytics
+1. Descriptive Analytics
+Focuses on understanding past events.
+Example: A report showing student pass and failure rates for a semester.
+2. Diagnostic Analytics
+Examines why events occurred.
+Example: Identifying that low attendance caused poor academic performance.
+3. Predictive Analytics
+Uses historical data to forecast future outcomes.
+Example: Predicting students likely to fail before exams begin.
+
+XXIV
+4. Prescriptive Analytics
+Recommends actions to achieve desired outcomes.
+Example: Automatically scheduling extra tutorials for at-risk students.
+c) Challenges of Big Data Analytics
+1. Data Privacy and Security: Protecting sensitive data from misuse or
+breaches.
+2. Data Quality and Bias: Inaccurate or biased data can produce misleading
+insights.
+
+WIRELESS SENSOR NETWORKS
+
+1. Define Wireless Sensor Networks (WSNs) and state their major applications.
+Answer:
+Wireless Sensor Networks (WSNs) are networks of small sensor nodes used to
+monitor environmental or physical conditions such as temperature, humidity, and
+pressure, and transmit the collected data wirelessly to a base station. They enable
+automated and real-time monitoring with little human involvement.
+WSNs are used in environmental monitoring, healthcare, agriculture, military
+surveillance, industrial automation, and Internet of Things (IoT) applications.
+2. State the main components of a sensor node in a Wireless Sensor Network
+and their functions.
+Answer:
+A sensor node consists of a sensing unit that detects physical parameters, a
+processing unit that processes and controls data, a communication unit that
+transmits data wirelessly, and a power unit that supplies energy to the node. Each
+component works together to enable data collection and transmission in the network.
+
+E-COMMERCE AND DIGITAL MARKETING
+
+QUESTIONS
+
+1. Explain 4 relationship between e-commerce and digital marketing, showing how both
+work together to drive online business success
+2. Discuss the 5 types of digital marketing, explaining how each can be used to support e-
+commerce businesses.
+
+ANSWERS
+
+1. Explain 4 relationship between e-commerce and digital marketing, showing how both
+work together to drive online business success
+
+
+a. Driving Traffic to E-commerce Platforms
+Digital marketing channels such as SEO, PPC advertising, social media marketing, and content
+marketing work collectively to drive qualified traffic to e-commerce platforms. SEO ensures that
+when potential customers search for products or solutions, the e-commerce site appears
+prominently in search results. PPC campaigns provide immediate visibility for specific products
+or promotions, while social media marketing builds brand awareness and drives traffic through
+engaging content and targeted advertisements. Each channel contributes uniquely to the overall
+traffic generation strategy, creating multiple pathways for customers to discover the online store.
+b. Building Brand Awareness and Recognition
+Content marketing plays a vital role here by positioning e-commerce brands as knowledgeable
+authorities in their niches. By creating helpful blog posts, videos, guides, and other valuable
+content, e-commerce businesses establish credibility that extends beyond simply selling
+products. A customer who first discovers a brand through an informative article about solving a
+particular problem is more likely to trust that brand when making a purchase decision later.
+
+c. Facilitating Customer Acquisition and Conversion
+Digital marketing doesn&#39;t just bring visitors to e-commerce sites; it brings the right
+visitors—those most likely to make purchases. Through sophisticated targeting capabilities
+available on platforms like Google Ads and Facebook, e-commerce businesses can reach
+consumers based on their demographics, interests, online behaviors, and even their stage in the
+buying journey. This precision targeting dramatically improves conversion rates compared to
+traditional mass marketing approaches.
+d. Supporting Customer Retention and Loyalty
+While much attention in e-commerce focuses on customer acquisition, digital marketing plays an
+equally important role in retention and loyalty building. Email marketing campaigns keep
+customers engaged with new product announcements, exclusive offers, helpful content, and
+personalized recommendations. Social media provides platforms for community building where
+customers can interact with brands and fellow enthusiasts, fostering emotional connections that
+transcend transactional relationships.
+
+2. Discuss the 5 types of digital marketing, explaining how each can be used to support e-
+commerce businesses.
+
+
+
+Search Engine Optimization (SEO)
+Search Engine Optimization is the practice of optimizing websites and content to rank higher in
+search engine results pages for relevant keywords and phrases. When users search for
+information on search engines like Google, Bing, or Yahoo, they typically click on results that
+appear on the first page. SEO aims to improve a website&#39;s visibility in these organic (non-paid)
+search results.
+SEO involves multiple components, including on-page optimization, which focuses on elements
+within the website such as quality content, keyword usage, meta descriptions, header tags, and
+internal linking structure. Off-page optimization involves activities outside the website, primarily
+link building, where other reputable websites link back to your content, signaling to search
+engines that your site is authoritative and trustworthy.
+Technical SEO addresses the backend structure of a website, ensuring it is fast, mobile-friendly,
+secure, and easily crawlable by search engine bots. With search engines constantly updating their
+algorithms to provide better user experiences, SEO requires ongoing effort and adaptation. The
+primary advantage of SEO is that it generates organic traffic, which doesn&#39;t require payment for
+each click, making it a cost-effective long-term strategy.
+3.3.2 Social Media Marketing
+Social Media Marketing involves using platforms such as Facebook, Instagram, Twitter,
+LinkedIn, TikTok, and YouTube to promote products, services, or brands. This type of marketing
+goes beyond simply posting content; it encompasses building communities, engaging with
+followers, running paid advertising campaigns, and leveraging influencer partnerships.
+Each social media platform has its own unique characteristics and user demographics. Instagram
+and TikTok ar\e highly visual and popular among younger audiences, making them ideal for
+lifestyle brands and products that photograph well. LinkedIn serves a professional audience and
+is better suited for B2B marketing and thought leadership. Facebook offers broad demographic
+reach and sophisticated advertising tools that allow precise targeting.
+3.3.3 Email Marketing
+Email marketing remains one of the most effective digital marketing channels, involving the use
+of email to send commercial messages to a targeted audience. Despite being one of the oldest
+forms of digital marketing, it continues to deliver impressive returns on investment, with studies
+showing an average return of $42 for every dollar spent.
+Effective email marketing goes beyond mass promotional emails. It includes welcome series for
+new subscribers, abandoned cart reminders for e-commerce businesses, personalized product
+recommendations based on browsing history, newsletters with valuable content, and re-
+
+47
+
+engagement campaigns for inactive subscribers. Segmentation is crucial in email
+marketing—dividing your email list into smaller groups based on characteristics like
+demographics, purchase history, or engagement level allows for more personalized and relevant
+messaging.
+3.3.4 Content Marketing
+Content marketing focuses on creating and distributing valuable, relevant, and consistent content
+to attract and retain a clearly defined audience, ultimately driving profitable customer action.
+Rather than explicitly promoting products or services, content marketing provides genuinely
+helpful information that addresses the needs and questions of the target audience.
+This approach includes various formats such as blog posts, articles, videos, podcasts,
+infographics, ebooks, whitepapers, case studies, and webinars. The key principle is to provide
+value first, establishing the business as a trusted resource and thought leader in its industry.
+When consumers need to make a purchase decision, they&#39;re more likely to choose brands they
+already know and trust.
+3.3.5 Pay-Per-Click Advertising (PPC)
+Pay-Per-Click advertising is a model where advertisers pay a fee each time their ad is clicked,
+essentially buying visits to their site rather than earning them organically. Search engine
+advertising is the most common form of PPC, where advertisers bid on keywords relevant to
+their business, and their ads appear in sponsored positions on search results pages.
+Google Ads is the largest PPC platform, allowing businesses to display ads on Google&#39;s search
+results and across its display network of partner websites. The auction-based system considers
+both the bid amount and the quality score of the ad, which is determined by factors like ad
+relevance, landing page quality, and expected click-through rate. This means that simply bidding
+higher doesn&#39;t guarantee the top position; the ad must also be relevant and useful to users.
+3.3.6 Affiliate Marketing
+Affiliate marketing is a performance-based marketing model where businesses reward affiliates
+(partners) for driving traffic or sales through the affiliate&#39;s marketing efforts. Affiliates promote
+products or services through their own channels—such as websites, blogs, social media, or email
+lists—and earn a commission for each sale, lead, or action generated through their unique
+tracking links.
+This model benefits businesses by expanding their reach without upfront advertising costs; they
+only pay when desired results are achieved. For affiliates, it offers an opportunity to monetize
+their audience and content without creating their own products. Popular affiliate networks like
+Amazon Associates, ShareASale, and Commission Junction connect businesses with potential
+affiliates and provide tracking and payment infrastructure.
+
+NATURAL LANGUAGE PROCESSING
+
+1. Define Natural Language Processing (NLP) and explain its role in bridging the gap
+between computational techniques and linguistic knowledge.
+2. List and explain the four primary steps involved in cleaning raw text for analysis.
+
+ANSWERS
+1. Natural Language Processing (NLP)
+Natural Language Processing (NLP) is the intersection of computer science,
+artificial intelligence, and linguistics. At its core, it is the technology used to help
+computers "understand," interpret, and generate human language in a way that is
+both meaningful and useful.
+Bridging the Gap: Computation vs. Linguistics
+The primary challenge in NLP is that human language is messy, ambiguous, and
+context-dependent, while computers require structured, precise input. NLP acts
+as the bridge by merging two distinct worlds:
+i. Linguistic Knowledge: This provides the "rules of the game." It involves
+understanding Syntax (grammar and sentence structure), Semantics (the
+meaning of words), and Pragmatics (how context affects meaning). Without
+linguistics, a computer might treat "The record was broken" and "Please record
+the meeting" as identical because the words look the same.
+ii. Computational Techniques: This is the "engine." It involves using algorithms,
+statistical models, and deep learning architectures (like Transformers) to process
+massive amounts of text. Computers use these techniques to represent words as
+mathematical vectors in a multi-dimensional space.
+By combining these, NLP transforms unstructured "human" data into a structured
+format that a machine can perform operations on—allowing for tasks like
+sentiment analysis, translation, and real-time conversation.
+2. The 4 Primary Steps of Text Cleaning
+Before a machine can analyze text, the data must be "cleaned" to remove noise
+and standardize the format. This process is often called Preprocessing.
+i. Tokenization
+This is the process of breaking down a large body of text into smaller units called
+tokens. Usually, these tokens are individual words, but they can also be characters or
+sub-words.
+
+ Example: "I love NLP!" becomes ["I", "love", "NLP", "!"].
+ Why: It is the foundational step that allows the computer to count and track
+individual linguistic units.
+ii. Lowercasing
+Text is converted entirely to lowercase to ensure uniformity.
+ Example: "Apple," "APPLE," and "apple" are all reduced to apple.
+ Why: To a computer, "Apple" and "apple" have different ASCII values and would
+be treated as different entities. Lowercasing reduces the "vocabulary" size and helps the
+model realize they are the same concept.
+iii. Stop Word Removal
+"Stop words" are common words that carry very little unique information, such as "the,"
+"is," "at," "which," and "on."
+ Example: "The cat is on the mat" becomes ["cat", "mat"].
+ Why: These words appear so frequently that they can drown out the "signal" of
+the more important keywords. Removing them helps the model focus on the words that
+actually define the meaning of the sentence.
+iv. Lemmatization (or Stemming)
+This step involves reducing words to their root or base form.
+ Stemming is a "crude" method that chops off the ends of words (e.g., "running"
+becomes "run").
+ Lemmatization is a more sophisticated method that uses a dictionary to find the
+actual root (the "lemma").
+ Example: "Better" $\rightarrow$ "Good"; "Running" $\rightarrow$ "Run"; "Mice"
+$\rightarrow$ "Mouse".
+ Why: This groups different forms of the same word together so the machine
+understands they represent the same underlying idea.
+
+SMART CITIES AND IOT'S
+
+Question 1:
+Explain the concept of a Smart City.
+Answer:
+A Smart City is an urban area that uses digital technologies, especially IoT,
+data analytics, and cloud computing, to improve the quality of life of its
+citizens. Smart cities collect real-time data from connected devices to manage
+resources efficiently, enhance public services, improve safety, and promote
+environmental sustainability. Areas such as transportation, energy,
+healthcare, waste management, and security are optimized through
+automation and data-driven decision-making.
+Question 2:
+Discuss the role of IoT in enabling Smart Cities.
+Answer:
+IoT plays a central role in smart cities by providing real-time data and
+automation. Sensors and smart devices monitor traffic flow, energy usage, air
+quality, water supply, and public safety. This data allows city authorities to
+respond quickly to issues, manage resources efficiently, and plan better for
+the future. For example, smart traffic lights reduce congestion, smart meters
+reduce energy waste, and surveillance systems improve public safety.
+Without IoT, the automation and intelligence required for smart cities would
+not be possible.
+Question 3:
+Compare Traditional Cities and Smart Cities.
+Answer:
+Traditional cities rely mainly on manual processes and limited data
+collection. City services such as traffic control, waste management, and
+energy distribution are often slow, inefficient, and reactive. Problems are
+usually addressed only after they occur.
+In contrast, smart cities use IoT sensors, automated systems, and real-
+time data to manage city operations. Smart cities can predict problems before
+they happen, reduce waste, improve service delivery, and enhance citizens’
+quality of life. Overall, smart cities are more efficient, sustainable, and
+responsive than traditional cities.
+
+CYBERTHREATS AND CYBERSECURITY
+
+Question 1
+(a) Define &quot;Cybersecurity&quot; and explain the core principles known as the &quot;CIA Triad.&quot;
+(b) Differentiate between a &quot;Cyber Threat,&quot; a &quot;Cyber Attack,&quot; and &quot;Cyber Risk.&quot;
+(c) Identify and describe three distinct categories of &quot;Threat Actors&quot; who create these threats.
+
+Question 2
+(a) Explain the concept of &quot;Social Engineering&quot; and describe two specific techniques used in
+these attacks.
+(b) Compare &quot;Network Security&quot; with &quot;Endpoint Security,&quot; and explain the specific difference
+between an Intrusion Detection System (IDS) and an Intrusion Prevention System (IPS).
+(c) Discuss the role of Artificial Intelligence (AI) in modern cybersecurity and identify two
+major challenges organizations face in securing their systems.
+
+Answers
+
+Question 1
+(a) Cybersecurity: This is the practice of protecting systems, networks, and programs from
+digital attacks. It is a multifaceted discipline combining people, processes, and technology to
+defend against threats aimed at accessing, changing, or destroying sensitive information.
+The CIA Triad: This represents three fundamental security objectives:
+- Confidentiality: Ensures information is accessible only to authorized users, preventing
+unauthorized access through encryption and passwords.
+- Integrity: Ensures data remains accurate, complete, and unaltered unless modified by
+authorized users.
+- Availability: Ensures systems, networks, and data are accessible to authorized users
+whenever needed.
+
+(b) Differences between Threat, Attack, and Risk
+
+- Cyber Threat: A potential danger or possibility that could exploit a weakness in a system
+to cause harm. It exists even if no action has occurred yet (e.g., hackers targeting banks).
+- Cyber Attack: The actual action taken by an attacker to harm, disrupt, or gain
+unauthorized access to a system (e.g., launching ransomware).
+- Cyber Risk: The likelihood and impact of a cyber threat turning into a successful attack.
+It is used for decision-making and budgeting.
+
+(c) Categories of Threat Actors
+- Cybercriminals: Individuals or organized groups who commit illegal cyber activities
+primarily for financial gain.
+- Nation-State Actors: Governments or state-supported teams that launch attacks for
+political, military, or intelligence reasons, often engaging in espionage or cyberwarfare.
+- Hacktivists: Hackers driven by political, social, or ideological motives rather than money,
+attacking systems to protest or expose perceived wrongdoing
+
+Question 2
+(a) Social Engineering and Techniques
+Concept: Social engineering involves manipulating people into sharing information they
+shouldn&#39;t share, downloading malicious software, or making mistakes that compromise security.
+It relies on psychological manipulation (exploiting trust, fear, or urgency) rather than breaking
+technical defenses.
+Techniques:
+- Phishing: Deceiving victims via email (or SMS/voice) into revealing sensitive
+information like passwords or credit card numbers by impersonating reputable sources.
+- Tailgating: A physical or digital attack where an unauthorized person follows an
+authorized person into a prohibited area (e.g., sneaking into a building behind someone or
+using an employee&#39;s unattended device).
+
+(b) Network vs. Endpoint Security:
+
+- Network Security: Focuses on securing the network itself (both internal and external)
+from unauthorized access using tools like firewalls and VPNs.
+- Endpoint Security: Focuses on protecting individual devices (laptops, smartphones,
+servers) that connect to the network, often using antivirus software and device
+encryption.
+
+IDS vs. IPS:
+- Intrusion Detection System (IDS): Monitors network activities for suspicious behavior
+and alerts administrators but does not block traffic automatically.
+- Intrusion Prevention System (IPS): Detects malicious activity and takes action to prevent
+it, such as blocking traffic or terminating suspicious connections in real-time.
+
+(c) AI&#39;s Role and Cybersecurity Challenges
+Role of AI: AI processes large amounts of data to identify patterns indicating malicious activity.
+It helps in Threat Detection by monitoring user behavior and Malware Classification by
+analyzing the behavior of programs to detect unknown or new threats.
+Challenges:
+- Lack of Awareness: Many users are unaware of common threats like phishing, leading to
+careless actions like using weak passwords.
+- Insider Threats: Threats coming from employees or partners with legitimate access are
+difficult to detect because they operate within normal access privileges
+
+BLOCKCHAIN TECHNOLOGY
+
+QUESTION 1
+1a.
+Define Blockchain Technology and explain its relationship with Distributed
+Ledger Technology (DLT).
+Answer:
+1b.
+Discuss three (3) core components that ensure the functionality and security of
+blockchain systems.
+Answer:
+1c.
+Explain three (3) key features of blockchain technology and how each contributes
+to trust and transparency in digital systems.
+answer:
+QUESTION 2
+2a.
+Describe the four major blockchain network architectures:
+ Public
+ Private
+ Consortium
+ Hybrid
+Answer:
+2b.
+Explain blockchain governance, clearly distinguishing between on-chain
+governance off-chain governance and hybrid governance.
+Answer:
+2c.
+Discuss three (3) major advantages of blockchain technology and explain how
+they improve efficiency and security in digital systems.
+Answer:
+2d.
+Identify and explain three (3) limitations of blockchain technology that may
+hinder its widespread adoption.
+Answer:
+Below are extensive, theory-standard answers to Question 1 (1a–1c) and
+Question 2 (2a–2d)
+QUESTION 1
+1a. Define Blockchain Technology and explain its relationship with
+Distributed Ledger Technology (DLT).
+Blockchain technology is a decentralized digital ledger that records transactions
+
+1
+
+across multiple computers (nodes) in a way that prevents alteration or tampering.
+Information is grouped into blocks, and each block is linked to the previous
+block, forming a chain that is secure, transparent, and immutable.
+Distributed Ledger Technology (DLT) is the broader concept behind
+blockchain. DLT refers to a digital system where records are stored across
+multiple computers instead of one central server. Each node has an identical
+copy of the ledger, and updates are synchronized across the network. This makes
+the system decentralized, transparent, tamper-resistant, and highly secure.
+Relationship between Blockchain and DLT:
+Blockchain is described in the document as a highly specialized form of DLT.
+While DLTs are generally shared encrypted databases, blockchain is distinguished
+by its specific structure: data is stored in sequentially chained blocks,
+producing an irreversible and incorruptible record. Access and authentication
+are managed using cryptographic keys and signatures, which makes blockchain
+a secure way to implement DLT in real-world systems.
+
+1b. Discuss three (3) core components that ensure the functionality and
+security of blockchain systems.
+From the document, blockchain functionality and security depend on
+interconnected components that work together to create trusted, decentralized
+systems.
+(i) Cryptography
+Cryptography is presented as the “heart” of blockchain security. It uses
+mathematical algorithms such as digital signatures and hash functions to
+protect the system against unauthorized access and tampering. It ensures:
+ secure flow of information,
+ transaction confidentiality,
+ authentication and integrity of data.
+In simple terms, cryptography ensures that transactions are legitimate and that the
+stored records cannot be altered without detection.
+(ii) Distributed Ledger Technology (DLT) / Distributed Structure
+The distributed ledger ensures that data is not stored in one place. Instead, it is
+shared across many nodes in a peer-to-peer network, giving participants access to
+a single version of truth. This creates:
+ transparency (because records are shared),
+ decentralization (because there is no single controller),
+ resilience (because one failure does not collapse the entire system).
+(iii) Consensus Mechanisms
+Consensus mechanisms are the procedural rules that allow nodes to agree on the
+validity of transactions and the correct ordering of blocks. Since no central
+authority exists, the network must collectively validate what is true. Consensus
+therefore:
+ ensures only valid transactions are added,
+
+1
+ prevents manipulation,
+ maintains agreement across the distributed network.
+Note: The paper also includes smart contracts as another core component—self-
+executing programs stored on the blockchain that enforce agreements
+automatically when conditions are met. They reduce fraud and eliminate
+middlemen.
+
+1c. Explain three (3) key features of blockchain technology and how each
+contributes to trust and transparency in digital systems.
+The document highlights multiple features; here are three key ones clearly linked
+to trust and transparency:
+(i) Immutability
+Immutability means that once data is recorded and sealed into a block, it cannot
+be altered, deleted, or removed retroactively unless the majority of the network
+approves. This builds trust because records become reliable and permanent,
+supporting audit trails and accountability.
+(ii) Decentralization
+Decentralization means the network is not controlled by a single authority.
+Instead, data is stored and managed across multiple nodes. This improves trust
+because:
+ there is no single point of control,
+ there is no single point of failure,
+ users do not need to rely on one organization to “tell the truth.”
+(iii) Transparency
+In public permissionless blockchains, transactions are visible publicly, and
+participants share one consistent record. This transparency strengthens trust
+because people can verify activities independently rather than depending on
+hidden records controlled by a middleman.
+
+QUESTION 2
+2a. Describe the four major blockchain network architectures: Public,
+Private, Consortium, Hybrid.
+The document explains that blockchain architecture has different network
+models, each with trade-offs in access, governance, privacy, and scalability.
+(i) Public Blockchains (Permissionless)
+ Open to anyone globally: anyone can read, write, and validate transactions.
+ Governance is fully decentralized (no central authority).
+ Offers maximum transparency but tends to be slower and less scalable due to
+complex consensus required among many participants.
+Examples given include Bitcoin and Ethereum.
+(ii) Private Blockchains (Permissioned)
+ Participation is restricted; users require authorization.
+
+1
+
+ Governance is centralized under one entity or a small group.
+ Advantages: higher throughput, more privacy, cheaper and less energy-
+intensive (lighter consensus).
+ Trade-off: reduced transparency and greater centralized control.
+(iii) Consortium (Federated) Blockchains
+ Controlled by multiple organizations (shared authority).
+ Governance is distributed among known participants.
+ More efficient and scalable than public chains because fewer nodes are needed
+for consensus.
+ Risk: if a member node is compromised, the entire system can be affected.
+Examples mentioned include consortium-style systems like Corda or
+Quorum (as referenced in the paper’s description).
+(iv) Hybrid Blockchains
+ Combine public and private strengths.
+ A private blockchain handles internal confidential operations, while selected
+data is anchored/shared publicly for verification and trust.
+ Offers flexibility: private privacy + public auditability.
+ Useful for sectors needing both confidentiality and public verification (e.g.,
+healthcare, supply chain, government services).
+
+2b. Explain blockchain governance, distinguishing between on-chain
+governance, off-chain governance, and hybrid governance.
+Blockchain governance refers to the structures and decision-making processes
+that determine how a blockchain network is managed, updated, and kept secure.
+Because blockchains often have no central authority, governance ensures the
+system can evolve, resolve conflicts, and remain sustainable.
+(i) On-chain governance
+ Rules and decision processes are built into the blockchain protocol.
+ Participants (token holders, validators, miners) vote on proposals using
+blockchain mechanisms.
+ Decision-making becomes transparent and automated, often via smart
+contracts.
+(ii) Off-chain governance
+ Decisions are made outside the blockchain system through:
+discussions, community forums, developer meetings, or foundation-led
+processes.
+ These decisions still influence upgrades because developers implement them
+in future updates.
+(iii) Hybrid governance
+Although the document focuses on on-chain and off-chain, its discussion of
+mixed structures (especially hybrid models) supports a clear explanation of
+hybrid governance:
+Hybrid governance is a blend where some decisions are encoded and voted on
+
+1
+
+via on-chain procedures, while other decisions occur through off-chain
+community and organizational processes. This approach attempts to balance
+transparency and automation with real-world coordination among stakeholders.
+
+2c. Discuss three (3) major advantages of blockchain technology and explain
+how they improve efficiency and security in digital systems.
+From the document’s advantages section, three major advantages are:
+(i) Transparency and Traceability
+Blockchain provides a shared, verifiable record (“one version of truth”). This
+improves efficiency by supporting easier auditing and verification, and it
+improves security by reducing fraud and hidden manipulation.
+(ii) Security and Data Integrity
+Because blockchain uses cryptographic hashing and consensus validation,
+tampering becomes extremely difficult. Once data is recorded, it cannot be
+changed without agreement. This strengthens cybersecurity and builds confidence
+in the system’s records.
+(iii) Automation through Smart Contracts
+Smart contracts execute agreements automatically when conditions are met. This
+improves efficiency by reducing manual administrative processes and delays, and
+it improves security by reducing human interference, errors, and fraud
+opportunities.
+
+2d. Identify and explain three (3) limitations of blockchain technology that
+may hinder its widespread adoption.
+The document lists several limitations; three major ones are:
+(i) Scalability Constraints
+Public blockchains often struggle with low throughput and slow transaction
+speed, especially during congestion, mainly due to heavy consensus processes
+(e.g., PoW). This limits adoption in systems requiring high transaction volumes.
+(ii) Energy Consumption
+Some consensus methods—especially Proof-of-Work—require large
+computational power, leading to high energy consumption and environmental
+sustainability concerns. This can discourage adoption by governments and
+enterprises.
+(iii) Regulatory and Legal Uncertainty
+The paper notes that governments are still developing regulations for
+cryptocurrencies, digital identities, tokenized assets, and decentralized
+applications. This uncertainty affects organizational adoption and investor
+confidence because stakeholders may fear future restrictions or legal risks.
+
+REINFORCEMENT LEARNING 
+
+1. Differentiate between Supervised learning, Unsupervised learning and Reinforcement
+learning
+2. List and explain the types of Reinforcement learning
+3. List 5 applications of Reinforcement Learning
+4. List 4 reinforcement learning algorithms
+5. List 5 challenges of Reinforcement learning
